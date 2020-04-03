@@ -1,4 +1,8 @@
-resource_manifest_version '44febabe-d386-4d18-afbe-5e627f4af937'
+fx_version 'bodacious'
+
+game 'gta5'
+
+name 'mythic_interiors'
 
 client_scripts {
 	'client/main.lua',
@@ -7,8 +11,9 @@ client_scripts {
 }
  
 files {
-	'playerhouse_hotel/playerhouse_hotel.ytyp',
+	'stream/v_int_20.ytyp',
 	'stream/playerhouse_hotel/playerhouse_hotel.ytyp',
+	'stream/playerhouse_tier1/playerhouse_tier1.ytyp',
 	'stream/playerhouse_tier3/playerhouse_tier3.ytyp',
 }
 
@@ -23,6 +28,5 @@ exports {
 	'CreateTier1House',
 	'CreateTier2House',
 	'CreateTier3House',
-
 	'CreateTier1HouseFurnished',
 }
